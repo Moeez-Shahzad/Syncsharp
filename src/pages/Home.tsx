@@ -73,7 +73,7 @@ const Home: React.FC = () => {
           >
             <h1 className="text-5xl md:text-7xl font-bold">
               <span className="bg-gradient-to-r from-blue-800 via-blue-600 to-blue-800 bg-clip-text text-transparent">
-                Think Sharp,
+                Think Sharp
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
