@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
       title: 'Email Us',
       description: 'Drop us a line anytime',
       details: 'moeez.shahzad2002@gmail.com',
-      action: 'mailto:hello@syncsharp.com',
+      action: 'mailto:moeez.shahzad2002@gmail.com',
       gradient: 'from-blue-600 to-blue-800'
     },
     {
@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
       title: 'Call Us',
       description: 'Mon-Fri from 9am to 6pm',
       details: '+92 333 3660917',
-      action: 'tel:+15551234567',
+      action: 'tel:+923333660917',
       gradient: 'from-green-600 to-green-800'
     },
     {
