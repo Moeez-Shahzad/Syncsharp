@@ -193,7 +193,7 @@ const Teams: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              Our Expert Team
+              Our Top line Expert Team
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Each team member brings unique expertise and experience from leading tech companies 
