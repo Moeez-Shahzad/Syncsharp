@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             className="flex items-center space-x-2"
           >
             <div className="p-2 rounded-lg">
-              <img src={logo} alt="Sync Sharp Logo" className="h-8 w-8" />
+              <img src={logo} alt="Sync Sharp Logo" className="h-10 w-10" />
             </div>
             <Link
               to="/"
