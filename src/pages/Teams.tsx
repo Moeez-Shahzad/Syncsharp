@@ -6,7 +6,7 @@ const Teams: React.FC = () => {
   const teamMembers = [
     {
       name: "Shahzad Saleem",
-      position: "Brand Ambassador & Director",
+      position: "Chairman & President",
       bio: "Tech strategist and IT development specialist with expertise in web and mobile app development, as well as AI integration. Passionate about creating innovative solutions for B2B startups across MENA and EU regions.",
       image: "/images/teams/Shahzad.jpg",
       skills: [
@@ -16,7 +16,7 @@ const Teams: React.FC = () => {
         "Tech Strategy",
       ],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/shahzad-saleem-b8188220/",
         twitter: "#",
         github: "#",
       },
@@ -39,56 +39,61 @@ const Teams: React.FC = () => {
       position: "CTO & Co-Founder",
       bio: "Full-stack architect with expertise in scalable systems. Former senior engineer at Google and Microsoft with 15+ years experience.",
       image: "/images/teams/Saif.jpg",
-      skills: ["System Architecture", "Cloud Computing", "AI/ML", "Data Engineer"],
+      skills: [
+        "System Architecture",
+        "Cloud Computing",
+        "AI/ML",
+        "Data Engineer",
+      ],
       social: {
         linkedin: "https://www.linkedin.com/in/saif-shahzad-60b160355/",
         twitter: "#",
         github: "#",
       },
     },
-    {
-      name: "Mahrukh Shahzad",
-      position: "Lead Frontend Developer & AI Developer",
-      bio: "React specialist who creates pixel-perfect user experiences. Previously at Airbnb and Spotify, passionate about modern web technologies.",
-      image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-      skills: ["React", "TypeScript", "UI/UX Design"],
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-      },
-    },
-    {
-      name: "Simrah Shahzad",
-      position: "Project Manager & Software Developer",
-      bio: "Cross-platform mobile expert with published apps reaching millions of users. Specializes in React Native and Flutter development.",
-      image:
-        "https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400",
-      skills: ["React Native", "Flutter", "Mobile UX"],
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-      },
-    },
-    {
-      name: "Farzana Shahzad",
-      position: "Accounts And Legal Advisor",
-      bio: "Experienced Accounts and Legal Advisor specializing in corporate finance, compliance, and regulatory affairs. Skilled in optimizing financial operations and providing strategic legal guidance.",
-      image:
-        "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=400",
-      skills: [
-        "Financial Management",
-        "Corporate Law",
-        "Regulatory Compliance",
-      ],
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-      },
-    },
+    // {
+    //   name: "Mahrukh Shahzad",
+    //   position: "Lead Frontend Developer & AI Developer",
+    //   bio: "React specialist who creates pixel-perfect user experiences. Previously at Airbnb and Spotify, passionate about modern web technologies.",
+    //   image:
+    //     "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+    //   skills: ["React", "TypeScript", "UI/UX Design"],
+    //   social: {
+    //     linkedin: "#",
+    //     twitter: "#",
+    //     github: "#",
+    //   },
+    // },
+    // {
+    //   name: "Simrah Shahzad",
+    //   position: "Project Manager & Software Developer",
+    //   bio: "Cross-platform mobile expert with published apps reaching millions of users. Specializes in React Native and Flutter development.",
+    //   image:
+    //     "https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400",
+    //   skills: ["React Native", "Flutter", "Mobile UX"],
+    //   social: {
+    //     linkedin: "#",
+    //     twitter: "#",
+    //     github: "#",
+    //   },
+    // },
+    // {
+    //   name: "Farzana Shahzad",
+    //   position: "Accounts And Legal Advisor",
+    //   bio: "Experienced Accounts and Legal Advisor specializing in corporate finance, compliance, and regulatory affairs. Skilled in optimizing financial operations and providing strategic legal guidance.",
+    //   image:
+    //     "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=400",
+    //   skills: [
+    //     "Financial Management",
+    //     "Corporate Law",
+    //     "Regulatory Compliance",
+    //   ],
+    //   social: {
+    //     linkedin: "#",
+    //     twitter: "#",
+    //     github: "#",
+    //   },
+    // },
   ];
 
   const testimonials = [
