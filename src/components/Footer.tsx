@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           >
             <div className="flex items-center space-x-2">
               <div className="p-2 rounded-lg">
-                <img src={logo} alt="Sync Sharp Logo" className="h-16" />
+                <img src={logo} alt="Sync Sharp Logo" className="h-12 w-12" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent">
                 Sync Sharp
