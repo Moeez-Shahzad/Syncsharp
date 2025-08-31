@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Zap, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import { Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Footer: React.FC = () => {
   const socialLinks = [
@@ -22,16 +23,17 @@ const Footer: React.FC = () => {
             className="space-y-4"
           >
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-to-r from-blue-800 to-blue-600 p-2 rounded-lg">
-                <Zap className="h-6 w-6 text-white" />
+              <div className="p-2 rounded-lg">
+                <img src={logo} alt="Sync Sharp Logo" className="h-16" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent">
                 Sync Sharp
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 max-w-md">
-              Think sharp, Sync Sharp. Your trusted partner for complete IT development services,
-              empowering startups across MENA & EU with cutting-edge technology solutions.
+              Think sharp, Sync Sharp. Your trusted partner for complete IT
+              development services, empowering startups across MENA & EU with
+              cutting-edge technology solutions.
             </p>
           </motion.div>
 
@@ -43,9 +45,16 @@ const Footer: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Services</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Services
+            </h3>
             <div className="space-y-2">
-              {['Website Development', 'Mobile App Development', 'AI Integrations', 'Cloud Solutions'].map((service) => (
+              {[
+                "Website Development",
+                "Mobile App Development",
+                "AI Integrations",
+                "Cloud Solutions",
+              ].map((service) => (
                 <motion.p
                   key={service}
                   whileHover={{ x: 4 }}
@@ -65,7 +74,9 @@ const Footer: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Connect With Us</h3>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              Connect With Us
+            </h3>
             <div className="flex space-x-4">
               {socialLinks.map(({ icon: Icon, href, label }) => (
                 <motion.a
@@ -81,7 +92,8 @@ const Footer: React.FC = () => {
               ))}
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Ready to transform your business? Let's sync up and create something sharp together.
+              Ready to transform your business? Let's sync up and create
+              something sharp together.
             </p>
           </motion.div>
         </div>
@@ -94,7 +106,8 @@ const Footer: React.FC = () => {
           className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700"
         >
           <p className="text-center text-sm text-gray-600 dark:text-gray-400">
-            © {new Date().getFullYear()} Sync Sharp. All rights reserved. Built with precision and passion.
+            © {new Date().getFullYear()} Sync Sharp. All rights reserved. Built
+            with precision and passion.
           </p>
         </motion.div>
       </div>
