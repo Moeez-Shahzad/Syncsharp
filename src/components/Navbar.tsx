@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
               to="/"
               className="text-2xl font-bold bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent"
             >
-              Sync Sharp
+              Syncsharp
             </Link>
           </motion.div>
 
