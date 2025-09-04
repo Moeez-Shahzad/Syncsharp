@@ -42,13 +42,13 @@ const Home: React.FC = () => {
     {
       name: 'Sarah Ahmed',
       position: 'CTO, TechFlow Startup',
-      content: 'Sync Sharp transformed our startup vision into reality. Their technical expertise and attention to detail is unmatched.',
+      content: 'Syncsharp transformed our startup vision into reality. Their technical expertise and attention to detail is unmatched.',
       rating: 5
     },
     {
       name: 'Marcus Chen',
       position: 'Founder, InnovateMENA',
-      content: 'Working with Sync Sharp was a game-changer. They delivered beyond our expectations and on time.',
+      content: 'Working with Syncsharp was a game-changer. They delivered beyond our expectations and on time.',
       rating: 5
     },
     {
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
-                Sync Sharp
+                Syncsharp
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -266,7 +266,7 @@ const Home: React.FC = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Join the ranks of successful startups who've chosen Sync Sharp as their technology partner. 
+              Join the ranks of successful startups who've chosen Syncsharp as their technology partner. 
               Let's build something extraordinary together.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
