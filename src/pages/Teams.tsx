@@ -6,7 +6,7 @@ const Teams: React.FC = () => {
   const teamMembers = [
     {
       name: "Shahzad Saleem",
-      position: "Chairman & President",
+      position: "Chair Person",
       bio: "Tech strategist and IT development specialist with expertise in web and mobile app development, as well as AI integration. Passionate about creating innovative solutions for B2B startups across MENA and EU regions.",
       image: "/images/teams/Shahzad.jpg",
       skills: [
@@ -37,7 +37,7 @@ const Teams: React.FC = () => {
     {
       name: "Saif Shahzad",
       position: "CTO & Co-Founder",
-      bio: "Full-stack architect with expertise in scalable systems. Former senior engineer at Google and Microsoft with 15+ years experience.",
+      bio: "Full-stack architect with expertise in scalable systems. Former senior engineer at Google and Microsoft with 2+ years experience.",
       image: "/images/teams/Saif.jpg",
       skills: [
         "System Architecture",
