@@ -51,49 +51,49 @@ const Teams: React.FC = () => {
         github: "#",
       },
     },
-    // {
-    //   name: "Mahrukh Shahzad",
-    //   position: "Lead Frontend Developer & AI Developer",
-    //   bio: "React specialist who creates pixel-perfect user experiences. Previously at Airbnb and Spotify, passionate about modern web technologies.",
-    //   image:
-    //     "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-    //   skills: ["React", "TypeScript", "UI/UX Design"],
-    //   social: {
-    //     linkedin: "#",
-    //     twitter: "#",
-    //     github: "#",
-    //   },
-    // },
-    // {
-    //   name: "Simrah Shahzad",
-    //   position: "Project Manager & Software Developer",
-    //   bio: "Cross-platform mobile expert with published apps reaching millions of users. Specializes in React Native and Flutter development.",
-    //   image:
-    //     "https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400",
-    //   skills: ["React Native", "Flutter", "Mobile UX"],
-    //   social: {
-    //     linkedin: "#",
-    //     twitter: "#",
-    //     github: "#",
-    //   },
-    // },
-    // {
-    //   name: "Farzana Shahzad",
-    //   position: "Accounts And Legal Advisor",
-    //   bio: "Experienced Accounts and Legal Advisor specializing in corporate finance, compliance, and regulatory affairs. Skilled in optimizing financial operations and providing strategic legal guidance.",
-    //   image:
-    //     "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=400",
-    //   skills: [
-    //     "Financial Management",
-    //     "Corporate Law",
-    //     "Regulatory Compliance",
-    //   ],
-    //   social: {
-    //     linkedin: "#",
-    //     twitter: "#",
-    //     github: "#",
-    //   },
-    // },
+    {
+      name: "Mahrukh Shahzad",
+      position: "Lead Frontend Developer & AI Developer",
+      bio: "React specialist who creates pixel-perfect user experiences. Previously at Airbnb and Spotify, passionate about modern web technologies.",
+      image:
+        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      skills: ["React", "TypeScript", "UI/UX Design"],
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        github: "#",
+      },
+    },
+    {
+      name: "Simrah Shahzad",
+      position: "Project Manager & Software Developer",
+      bio: "Cross-platform mobile expert with published apps reaching millions of users. Specializes in React Native and Flutter development.",
+      image:
+        "https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400",
+      skills: ["React Native", "Flutter", "Mobile UX"],
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        github: "#",
+      },
+    },
+    {
+      name: "Farzana Shahzad",
+      position: "Accounts And Legal Advisor",
+      bio: "Experienced Accounts and Legal Advisor specializing in corporate finance, compliance, and regulatory affairs. Skilled in optimizing financial operations and providing strategic legal guidance.",
+      image:
+        "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=400",
+      skills: [
+        "Financial Management",
+        "Corporate Law",
+        "Regulatory Compliance",
+      ],
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        github: "#",
+      },
+    },
   ];
 
   const testimonials = [
